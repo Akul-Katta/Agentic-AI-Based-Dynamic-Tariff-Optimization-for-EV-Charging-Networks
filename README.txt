@@ -1,0 +1,20 @@
+Project:
+Agentic AI-Based Dynamic Tariff Optimization for EV Charging Networks Using Large-Scale Charging Session Data
+
+Files:
+01_data_preprocessing.ipynb  - Data cleaning and preprocessing
+02_EDA.ipynb                 - Exploratory data analysis
+03_feature_engineering.ipynb - Feature engineering
+04_demand_prediction.ipynb   - CatBoost demand forecasting model
+05_dynamic_pricing.ipynb     - Dynamic tariff optimization and monitoring
+
+Dataset:
+ACN-Data (Caltech EV Charging Dataset)
+
+Final Results:
+RMSE: 0.638
+MAE: 0.251
+R²: 0.968
+Revenue Gain: 16.84%
+Off-Peak Uplift: 169.17%
+Waiting Time Reduction: 69.07%
